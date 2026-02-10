@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -11,12 +11,24 @@
       <h2>Creating Links</h2>
       <nav role="navigation">
         <ul>
-          <li>Introduction to HTML</li>
-          <li>HTML syntax</li>
-          <li>Structuring pages</li>
-          <li>Creating links</li>
-          <li>HTML reference</li>
-          <li>Next steps</li>
+          <a href="index.html" rel="next" title="Introduction Page"
+            ><li>Introduction to HTML</li></a
+          >
+          <a href="syntax.html" rel="next" title="Syntax Page"
+            ><li>HTML syntax</li></a
+          >
+          <a href="structure.html" rel="next" title="Structure Guide Page"
+            ><li>Structuring pages</li></a
+          >
+          <a href="links.html" rel="next" title="Link Guide Page"
+            ><li>Creating links</li></a
+          >
+          <a href="reference.html" rel="next" title="Reference Page"
+            ><li>HTML reference</li></a
+          >
+          <a href="next.html" rel="next" title="Next Steps Page"
+            ><li>Next steps</li></a
+          >
         </ul>
       </nav>
     </header>
@@ -168,7 +180,25 @@
       </article>
     </main>
     <footer role="contentinfo">
-      <p>CSUN 18111 Nordhoff St Northridge, CA 91330</p>
+      <p>
+        <a
+          href="https://www.csun.edu"
+          rel="external page"
+          title="CSUN Homepage"
+          target="_blank"
+          >CSUN</a
+        >
+        18111 Nordhoff St Northridge, CA 91330
+      </p>
+      <p>
+        follow us on twitter!
+        <a
+          href="https://x.com/csunorthridge?lang=en"
+          title="CSUN Twitter"
+          target="_blank"
+          >@csunorthridge</a
+        >
+      </p>
     </footer>
   </body>
 </html>

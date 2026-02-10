@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -11,12 +11,24 @@
       <h2>HTML Syntax</h2>
       <nav role="navigation">
         <ul>
-          <li>Introduction to HTML</li>
-          <li>HTML syntax</li>
-          <li>Structuring pages</li>
-          <li>Creating links</li>
-          <li>HTML reference</li>
-          <li>Next steps</li>
+          <a href="index.html" rel="next" title="Introduction Page"
+            ><li>Introduction to HTML</li></a
+          >
+          <a href="syntax.html" rel="next" title="Syntax Page"
+            ><li>HTML syntax</li></a
+          >
+          <a href="structure.html" rel="next" title="Structure Guide Page"
+            ><li>Structuring pages</li></a
+          >
+          <a href="links.html" rel="next" title="Link Guide Page"
+            ><li>Creating links</li></a
+          >
+          <a href="reference.html" rel="next" title="Reference Page"
+            ><li>HTML reference</li></a
+          >
+          <a href="next.html" rel="next" title="Next Steps Page"
+            ><li>Next steps</li></a
+          >
         </ul>
       </nav>
     </header>
@@ -221,8 +233,10 @@
             the actual ampersand. You can find named character entity lists
             within the HTML specifications, although the format for them can be
             a bit hard to read. You can also find a useful list of character
-            entities on the HTML Reference page, and a more comprehensive list
-            on
+            entities on the
+            <a href="reference.html#table" title="Reference Page" rel="next"
+              >HTML Reference page</a
+            >, and a more comprehensive list on
             <a
               href="http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references"
               title="Character entity reference"
